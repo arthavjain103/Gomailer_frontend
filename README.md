@@ -112,18 +112,6 @@ gofro/
 
 ---
 
-## Landing Page Sections
-
-| Section | Description |
-|---|---|
-| **Navbar** | Fixed top bar — GoMailer logo, Benefits / Live demo links, Console CTA |
-| **Hero** | Animated headline (`RippleWave`), interactive `VectorWordmark` (WebGL dotted text), stat badges (10K+ Recipients, 5 Workers, 3 Retries, 99.9% Delivered), dual CTA buttons |
-| **Pipeline Carousel** | `SmoothScrollSlider` with 6 benefit cards — drag, scroll, or auto-loops. Shows: Never lose mail, Never double-send, Stays fast, Won't get blocked, Always visible, Easy to run |
-| **Live Demo** | Split layout — left side stats (842/min, 99.9%, 0 lost), right side `IOSMessageList` chat widget showing "Campaign started → 10,000 recipients queued → 5 workers processing → Delivery completed successfully" with typing indicator and animated delivery progress bar |
-| **Benefits** | `TextEmerge` ink-drop heading + 6 cards: No lost emails, No duplicates, No overload, No babysitting, No guessing, No heavy setup |
-| **Footer** | `TextEmerge` heading + CTA button |
-
----
 
 ## Admin Console (`/console`)
 
