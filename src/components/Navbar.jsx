@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="mt-4 flex items-center justify-between rounded-2xl border border-white/10 bg-black/40 px-4 py-3 backdrop-blur-md">
-          <a href="#top" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <span className="grid h-8 w-8 place-items-center rounded-lg bg-white text-black">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path d="M3 7l9 6 9-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -11,14 +13,14 @@ export default function Navbar() {
               </svg>
             </span>
             <span className="text-[16px] font-bold tracking-tight text-white">GoMailer</span>
-          </a>
+          </Link>
           <nav className="hidden items-center gap-6 text-[14px] font-medium text-zinc-400 md:flex">
-            <a href="#benefits" className="transition hover:text-white">Benefits</a>
-            <a href="#demo" className="transition hover:text-white">Live demo</a>
+            <a href="/#benefits" className="transition hover:text-white">Benefits</a>
+            <a href="/#demo" className="transition hover:text-white">Live demo</a>
           </nav>
-          <a href="#demo" className="rounded-xl bg-white px-4 py-2 text-[14px] font-semibold text-black transition hover:bg-zinc-200">
-            Explore GoMailer
-          </a>
+          <Link to="/console" className="rounded-xl bg-white px-4 py-2 text-[14px] font-semibold text-black transition hover:bg-zinc-200">
+            Console
+          </Link>
         </div>
       </div>
     </header>
